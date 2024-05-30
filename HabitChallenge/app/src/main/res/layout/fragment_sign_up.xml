@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.SignUp.SignUpFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/challenge"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Регистрация"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_marginBottom="40dp"/>
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:hint="введите имя..."
+            android:height="50dp"
+            android:paddingVertical="15dp"
+            android:paddingStart="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="30dp" />
+
+        <EditText
+        android:id="@+id/emailInput"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:hint="@string/enter_email"
+        android:height="50dp"
+        android:paddingVertical="15dp"
+        android:paddingStart="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp" />
+
+        <EditText
+        android:id="@+id/passwordInput"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_background"
+        android:hint="@string/enter_password"
+        android:height="50dp"
+        android:paddingVertical="15dp"
+        android:paddingStart="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp" />
+
+        <EditText
+            android:id="@+id/repeatPassword"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/input_background"
+            android:hint="@string/repeat_password"
+            android:height="50dp"
+            android:paddingVertical="15dp"
+            android:paddingStart="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/goToSignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/already_registered" />
+
+        <Button
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="120dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/sign_up" />
+    </LinearLayout>
+
+</FrameLayout>

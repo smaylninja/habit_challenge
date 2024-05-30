@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".AddHabitDialogFragment"
+    android:layout_gravity="center"
+    android:background="@drawable/dialog"
+    android:minWidth="400dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="60dp"
+        android:minWidth="300dp">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="название привычки..."
+            android:singleLine="true"
+            android:paddingVertical="15dp"/>
+
+        <EditText
+            android:id="@+id/descriptionInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="описание..."
+            android:singleLine="true"
+            android:layout_marginTop="30dp"
+            android:paddingVertical="15dp"/>
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="Создать"
+            android:layout_gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

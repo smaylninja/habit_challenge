@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "541558033217",
+    "project_id": "habitchallenge-c209b",
+    "storage_bucket": "habitchallenge-c209b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541558033217:android:b28879fbbc868a61b12fc0",
+        "android_client_info": {
+          "package_name": "com.example.habitchallenge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjyXJIGC3Tybu_wUwi9hNJyAQ7xpD2uxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
